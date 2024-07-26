@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "lobotomy-corporation-121",
+	"version": "${version}",
+	"name": "Lobotomy Corporation 1.21",
+	"description": "A take on the game from Project Moon that tries to replicate the gameplay to Minecraft.",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/lobotomy-corporation-121/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.lobcorp.LobotomyCorporation121"
+		],
+		"client": [
+			"com.lobcorp.LobotomyCorporation121Client"
+		],
+		"fabric-datagen": [
+			"com.lobcorp.LobotomyCorporation121DataGenerator"
+		]
+	},
+	"mixins": [
+		"lobotomy-corporation-121.mixins.json",
+		{
+			"config": "lobotomy-corporation-121.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
