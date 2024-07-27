@@ -1,3 +1,8 @@
 {
-  "item.lobotomy-corporation-121.test" : "hello world"
+  "item.lobotomy-corporation-121.test" : "hello world",
+  "item.lobotomy-corporation-121.adoration" : "Adoration",
+  "item.lobotomy-corporation-121.heaven" : "Heaven",
+  "item.lobotomy-corporation-121.life_for_a_daredevil" : "Life For A Daredevil",
+  "item.lobotomy-corporation-121.penitence" : "Penitence",
+  "item.lobotomy-corporation-121.solemn_lament" : "Solemn Lament"
 }

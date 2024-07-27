@@ -3,9 +3,12 @@ package com.lobcorp;
 import com.lobcorp.Initialize.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
 
 public class LobotomyCorporation121 implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger("lobotomy-corporation-121");
@@ -16,6 +19,7 @@ public class LobotomyCorporation121 implements ModInitializer {
 
 		LOGGER.info("Loading Lobotomy Corporation...");
 		ModItems.load();
+		ModItems.loadGroup();
 	}
 
 	public static Identifier id (String path) {
