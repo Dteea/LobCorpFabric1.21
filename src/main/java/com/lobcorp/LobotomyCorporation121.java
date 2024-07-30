@@ -1,5 +1,6 @@
 package com.lobcorp;
 
+import com.lobcorp.Initialize.ModItemGroups;
 import com.lobcorp.Initialize.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -19,7 +20,7 @@ public class LobotomyCorporation121 implements ModInitializer {
 
 		LOGGER.info("Loading Lobotomy Corporation...");
 		ModItems.load();
-		ModItems.loadGroup();
+		ModItemGroups.load();
 	}
 
 	public static Identifier id (String path) {
