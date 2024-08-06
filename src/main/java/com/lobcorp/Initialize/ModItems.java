@@ -18,6 +18,17 @@ public class ModItems {
         return Registry.register(Registries.ITEM, itemID, item);
     }
     // List of modded items
+
+    // LOGOS (used as icons and not items)
+
+    // ZAYIN
+    // TETH
+    // HE
+    // WAW
+    // ALEPH
+
+    // WEAPONS
+    // ARMOR
     public static final Item ADORATION = register(new Item(new Item.Settings()), "adoration");
     public static final Item HEAVEN = register(new Item(new Item.Settings()), "heaven");
     public static final Item LIFE_FOR_A_DAREDEVIL = register(new Item(new Item.Settings()), "life_for_a_daredevil");
