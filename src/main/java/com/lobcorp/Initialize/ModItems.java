@@ -15,14 +15,9 @@ public class ModItems {
     // Method to easily register item
     private static Item register(Item item, String name) {
         Identifier itemID = Identifier.of(LobotomyCorporation121.MOD_ID, name);
-
-        Item registeredItem = Registry.register(Registries.ITEM, itemID, item);
-
-        return registeredItem;
+        return Registry.register(Registries.ITEM, itemID, item);
     }
-
     // List of modded items
-    public static final Item TEST = register(new Item(new Item.Settings()), "test");
     public static final Item ADORATION = register(new Item(new Item.Settings()), "adoration");
     public static final Item HEAVEN = register(new Item(new Item.Settings()), "heaven");
     public static final Item LIFE_FOR_A_DAREDEVIL = register(new Item(new Item.Settings()), "life_for_a_daredevil");

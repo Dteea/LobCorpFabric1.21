@@ -23,7 +23,4 @@ public class LobotomyCorporation121 implements ModInitializer {
 		ModItemGroups.load();
 	}
 
-	public static Identifier id (String path) {
-		return Identifier.of(MOD_ID, path);
-	}
 }
