@@ -22,11 +22,12 @@ public class ModItemGroups {
             itemGroup.add(ModItems.LIFE_FOR_A_DAREDEVIL);
             itemGroup.add(ModItems.ADORATION);
             itemGroup.add(ModItems.SOLEMN_LAMENT);
+            itemGroup.add(ModItems.PENITENCE);
 
     });
         Registry.register(Registries.ITEM_GROUP, WEAPONS, WEAPON);
-        ItemGroupEvents.modifyEntriesEvent(WEAPONS).register(entries -> {
-            entries.add(ModItems.PENITENCE);
+        ItemGroupEvents.modifyEntriesEvent(WEAPONS).register(itemGroup2 -> {
+            itemGroup2.add(ModItems.PENITENCE);
         });
 
 }
