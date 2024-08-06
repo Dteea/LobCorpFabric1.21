@@ -1,5 +1,12 @@
 {
-  "item.lobotomy-corporation-121.test" : "hello world",
+
+  "item.lobotomy-corporation-121.lcorp_logo" : "Lobotomy Corporation",
+  "item.lobotomy-corporation-121.zayin_logo" : "Zayin",
+  "item.lobotomy-corporation-121.teth_logo" : "Teth",
+  "item.lobotomy-corporation-121.he_logo" : "He",
+  "item.lobotomy-corporation-121.waw_logo" : "Waw",
+  "item.lobotomy-corporation-121.aleph_logo" : "Aleph",
+
   "item.lobotomy-corporation-121.adoration" : "Adoration",
   "item.lobotomy-corporation-121.heaven" : "Heaven",
   "item.lobotomy-corporation-121.life_for_a_daredevil" : "Life For A Daredevil",

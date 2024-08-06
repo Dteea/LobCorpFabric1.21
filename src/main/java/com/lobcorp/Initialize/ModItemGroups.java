@@ -36,13 +36,13 @@ public class ModItemGroups {
     public static final RegistryKey<ItemGroup> LOBOTOMY_CORPORATION = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(LobotomyCorporation121.MOD_ID, "all_group"));
 
     public static final ItemGroup ALL_ITEMS = FabricItemGroup.builder()
-            .icon(() -> new ItemStack(ModItems.ADORATION))
-            .displayName(Text.literal("Lobotomy Corporation"))
+            .icon(() -> new ItemStack(ModItems.LCLOGO))
+            .displayName(Text.translatable("item.lobotomy-corporation-121.lcorp_logo"))
             .build();
 
 
     public static final ItemGroup WEAPON = FabricItemGroup.builder()
             .icon(() -> new ItemStack(ModItems.PENITENCE))
-            .displayName(Text.literal("Weapons"))
+            .displayName(Text.translatable("item.lobotomy-corporation-121.penitence"))
             .build();
 }

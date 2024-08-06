@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "lobotomy-corporation-121:item/he_logo"
+  }
+}
