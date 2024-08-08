@@ -2,9 +2,12 @@ package com.lobcorp.Initialize;
 
 import com.lobcorp.LobotomyCorporation121;
 import com.lobcorp.custom.SolemnLament;
+import net.minecraft.entity.damage.DamageType;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
@@ -40,6 +43,9 @@ public class ModItems {
     public static final Item SOLEMN_LAMENT = register(new SolemnLament(new Item.Settings()), "solemn_lament");
 
     // ARMOR
+
+    // DAMAGE TYPES
+    public static final RegistryKey<DamageType> SANITY_DAMAGE = RegistryKey.of(RegistryKeys.DAMAGE_TYPE, Identifier.of(LobotomyCorporation121.MOD_ID, "sanity"));
 
 
 }
